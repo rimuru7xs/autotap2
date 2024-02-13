@@ -1,6 +1,7 @@
-if game.Placeid == 8750997647 then
-    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "Tutorial Hub - Tapping Legends X", HidePremium = false, IntroText = "Tutorial Hub", SaveConfig = true, ConfigFolder = "Tutorial Hub"})
+
+
     
     --Values
     _G.autoTap = true
@@ -32,10 +33,8 @@ if game.Placeid == 8750997647 then
             autoTap()
         end    
     })
-    
-    
-    
-    
-    
+
+    if game.Placeid == 8750997647 then
     end
+
     OrionLib:Init()
